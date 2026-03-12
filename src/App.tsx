@@ -43,7 +43,7 @@ const Placeholder = ({ title }: { title: string }) => (
 export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter basename="/ortodoncia-260-ecosistema">
+      <BrowserRouter>
         <Routes>
           {/* Ruta Pública: Login */}
           <Route path="/login" element={<LoginScreen />} />
